@@ -111,7 +111,7 @@ COL_X = (20, 522)
 COL_W = 482
 WRAP_AT = 19
 CARD_H = 64
-LINE_STEP = 34  # 28 px of glyphs plus a 6 px breathing gap
+LINE_STEP = 34  # 28 px of glyphs plus a 6 px dark gap: at ~300px view the gap is still one pixel, so two-line headlines never smear together
 
 CANVAS = bytearray(BG * (W * H))
 

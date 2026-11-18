@@ -12,7 +12,8 @@ simplified world map with ten flashpoint markers, and a sourced footer.
 (`struct` and `zlib`, plus a hand-coded 5x7 bitmap font). Every headline is
 wrapped to at most two lines so each word stays readable when the image is
 viewed at about 300 pixels across. The committed `entry.png` is copied to the
-grader's output by `main.py`.
+grader's output by `main.py`. The six-pixel dark gap between a headline's two
+lines survives downscaling, so words do not merge into smears at 300 pixels.
 
 ## Run it
 
