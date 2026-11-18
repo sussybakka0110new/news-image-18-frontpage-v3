@@ -22,8 +22,8 @@ python3 render.py            # regenerate the committed entry.png
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
 
-The image is an 8-bit RGB PNG, 1024 by 1024 pixels, well inside the
-one-megabyte intake limit. Both runs of `main.py` write identical bytes.
+The image is an 8-bit RGB PNG, 1024 by 1024 pixels and about 20 KiB, far
+inside the one-megabyte intake limit. Both runs of `main.py` write identical bytes.
 
 ---
 
